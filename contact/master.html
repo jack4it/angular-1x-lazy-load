@@ -1,0 +1,9 @@
+<a ui-sref="home">&lt;-- Go back to the homepage</a>
+
+<div class="master-container">
+    <ul>
+        <li ng-repeat="contact in vm.contacts">
+            <a class="contact-link" ng-href="#/contact/{{contact.id}}">{{contact.name}}</a>
+        </li>
+    </ul>
+</div>
