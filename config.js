@@ -7,7 +7,7 @@ System.config({
       "runtime",
       "optimisation.modules.system"
     ],
-    stage: 1
+    "stage": 1
   },
   paths: {
     "github:*": "jspm_packages/github/*",

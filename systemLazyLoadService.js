@@ -6,11 +6,11 @@ export class SystemLazyLoadService {
         this.$ocLazyLoad = $ocLazyLoad;
     }
 
-    load(src, key) {
+    load(src, moduleExportKey) {
         let loader = this.$ocLazyLoad;
         return System.import(src)
             .then(module => {
-                var angularModule = module[key || 'default'];
+                var angularModule = module[moduleExportKey || 'default'];
                 if (!angularModule) {
                     console.info(module);
                     throw new Error("Unexpected angular module");
