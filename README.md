@@ -3,6 +3,8 @@ What this project is for?
 
 A solution of lazy loading [Angular 1.x](https://angularjs.org/) modules using a mix of various technologies/tooling, including [systemjs](https://github.com/systemjs/systemjs), [ocLazyLoad](https://oclazyload.readme.io/), [ui-router](https://github.com/angular-ui/ui-router), [ui-router-extras](https://github.com/christopherthielen/ui-router-extras) [future state](http://christopherthielen.github.io/ui-router-extras/#/future) and not-required-but-great-to-have [ES6/ES2015](https://babeljs.io/docs/learn-es2015/).
 
+This demo project accompanies this blog post of mine http://jackma.com/2015/12/30/a-lazy-loading-solution-for-angular-1-x/.
+
 Usage
 =====
 
